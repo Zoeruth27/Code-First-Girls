@@ -13,6 +13,10 @@ h1 {
   font-size: 30px;
 }
 
+h2 {
+
+}
+
 p {
   font-family: coalhandluke;
   font-size: 20px;
