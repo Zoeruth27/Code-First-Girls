@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #fbf7fb;
+}
+
+h1 {
+  color: #fcf;
+  text-align: center;
+  font-family: coalhandluke
+  font-size: 30px;
+}
+
+p {
+  font-family: coalhandluke;
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<h1>My First CSS Example</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
