@@ -1,6 +1,7 @@
-h1,h2{
+h1, h2{
   text-align: center;
-  font-size: 30px
+  font-size: 5em;
+  font-family: Arial italic;
 }
 ol{
   text-align: center;
