@@ -1,0 +1,17 @@
+h1,h2{
+  text-align: center;
+  font-size: 30px
+}
+ol{
+  text-align: center;
+  list-style: none;
+  padding:0;
+  margin-bottom: 10%;
+  font-size: 3em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title{
+  color: pink;
+}
