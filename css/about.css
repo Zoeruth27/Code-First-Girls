@@ -19,6 +19,11 @@
     width: 70vw;
     min-height: 10vh;
     margin-left: 7%
+
+}
+mark {
+  background-color: pink;
+color: black;
 }
 
 .slogan{
@@ -31,9 +36,9 @@
 }
 
 .about{
-  line-height: 1;
+  line-height: 2;
   text-align: justify;
-  padding-left: 60px;
+  padding-left:120px;
 
 }
 
@@ -41,7 +46,7 @@
   line-height: 5;
   width: 70vw;
   min-height: 25vh;
-  margin-left: 11.5%;
+  padding-left: 315px;
   min-height: 10vh
 
 }
@@ -52,9 +57,11 @@
 
 .column {
   float:none;
-  width: 33.33%;
-  padding: 0.1px;
-  margin-left: 155px;
+  width: 20%;
+  padding: 3px;
+  margin-left: 160px;
+  text-align: center;
+  color: inherit;
 }
 
 .column:hover {
@@ -65,5 +72,26 @@
   content: "";
   clear: both;
   display: table;
-  padding-left: 1px;
+}
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #22cff4;
+  color: white;
+}
+}
+
+.fa-linkedin {
+  background: white;
+  color: #0077B5;
+  font-size: 30px
+}
+
+.fa-instagram {
+  background: #f56040; RGB: (245,96,64) CMYK: (0,78,79,0);
+  color: white;
 }
