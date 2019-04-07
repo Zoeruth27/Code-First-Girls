@@ -11,3 +11,7 @@ ol{
   display: flex;
   justify-content: space-between;
 }
+
+.title{
+  color: pink;
+}

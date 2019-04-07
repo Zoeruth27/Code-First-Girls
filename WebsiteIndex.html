@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
 
-<link rel="stylesheet" href="./css/websitestyle.">
+<link rel="stylesheet" href="./css/websitestyle.css">
 
 
     <!-- Required meta tags -->
@@ -12,132 +12,142 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About Teach Her</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact Her</a>
-      </li>
-    </ul>
+
+    <div class="topnav">
+      <a class="active" href="#home">Her Home</a>
+      <a href="#about">About Teach Her</a>
+      <a href="#contact">Contact Her</a>
+      <input type="text" placeholder="Search..">
+    </div>
+
+
+
 
 
     <title>Teach Her</title>
   </head>
   <body>
-    <h1>Teach Her</h1>
-    <h2 id="subtitle">For her, by her</h2>
+    <h1 class="title">Teach Her</h1>
+    <h2 class="subtitle">For her, by her</h2>
 
 
-    <div>
-        <ul>
+      <div id="boarder-background">
+        <ul class="info">
             Tutorial courses to empower Her & enhance Her lifestyle.
         </ul>
-        <ul>
+        <ul class="info">
             Helping Her to meet personal & professional goals.
         </ul>
       </div>
 
 
+      <div class="row">
+        <div class="col-sm">
 
-
-
-
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src=".../800x400?auto=yes&bg=777&fg=555&text=First slide" alt="First slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+      <video width="320" height="240" autoplay id="videoting">
+        <source src="./images/zoemakeup.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+      </video>
     </div>
 
-    <div class="row">
-      <div class="col-sm">
-        <h4>Her Beauty</h4>
-      </div>
-      <div class="col-sm">
-        <h4>Her Health</h4>
-      </div>
-      <div class="col-sm">
-        <h4>Her Lifestyle</h4>
-      </div>
-    </div>
-
-
-  <div class="row">
 
     <div class="col-sm">
-      <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Card image cap">
-      <div class="card-body">
-        <h4 class="card-title">Her Beauty</h4>
-        <p class="card-text">Tutorial courses on enhancing Her look.</p>
-      </div>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">Makeup</li>
-        <li class="list-group-item">Skin</li>
-        <li class="list-group-item">Hair</li>
-      </ul>
-      <div class="card-body">
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
-        </div>
-
-        <div class="col-sm">
-          <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Her Health</h4>
-            <p class="card-text">Tutorial courses on enhancing Her within.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Fitness workouts</li>
-            <li class="list-group-item">Recipies</li>
-            <li class="list-group-item">ermmm idk</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-            </div>
-
-            <div class="col-sm">
-              <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Card image cap">
-              <div class="card-body">
-                <h4 class="card-title">Her Lifestyle</h4>
-                <p class="card-text">Tutorial courses on empowering Her self.</p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Motivation</li>
-                <li class="list-group-item">Books</li>
-                <li class="list-group-item">Journalling</li>
-              </ul>
-              <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="subscribe">
+            Click here
+          </button>
+    </div>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Subscribe to Teach Her</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
                 </div>
+                <div class="modal-body">
+              <p>    Teach Her. <i>For her, by her.</i> </p>
+                  <p>We believe the endless variety of tutorials by Teach Her can only make you the best version of you.
+                  By clicking subscribe, you are in for the best opportunity to learn in a community who knows just want you need.
+                  </p>
+                  <p>Click subscribe now!</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">No thank you</button>
+                  <button type="button" class="btn btn-primary">Yes I want to subscribe!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      <video width="320" height="240" autoplay id="videoting">
+        <source src="./images/giannegym.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+      </video>
+</div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <div class="custom-column">
+            <div class="custom-column-header">Her Beauty</div>
+              <img class="card-img-top" src="./images/herbeauty.jpg" alt="Card image cap">
+            <div class="custom-column-content">
+              <ul class="list-group">
+                <li class="list-group-item"><i class="fa fa-check"></i> Tutorial courses on enhancing Her look.</li>
+                <li class="list-group-item"><i class="fa fa-check"></i> Makeup</li>
+                <li class="list-group-item"><i class="fa fa-check"></i> Skin</li>
+                <li class="list-group-item"><i class="fa fa-check"></i> Hair</li>
+
+              </ul>
+            </div>
+            <div class="card-body">
+              <a href="#" class="card-link">Tutorials</a>
+              <a href="#" class="card-link">More Info</a>
+              </div>
+            <div class="custom-column-footer"></div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="custom-column">
+            <div class="custom-column-header">Her Health</div>
+              <img class="card-img-top" src="./images/herhealth.jpg" alt="Card image cap">
+            <div class="custom-column-content">
+              <ul class="list-group">
+                <li class="list-group-item"><i class="fa fa-check"></i> Tutorial courses on enhancing Her within.</li>
+                <li class="list-group-item"><i class="fa fa-check"></i> Fitness</li>
+                <li class="list-group-item"><i class="fa fa-check"></i> Diets</li>
+                <li class="list-group-item"><i class="fa fa-check"></i> Recipies</li>
+
+              </ul>
+            </div>
+            <div class="card-body">
+              <a href="#" class="card-link">Tutorials</a>
+              <a href="#" class="card-link">More Info</a>
+              </div>
+            <div class="custom-column-footer"></div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="custom-column">
+            <div class="custom-column-header">Her Lifestyle</div>
+            <img class="card-img-top" src="./images/herlifestyle.jpg" alt="Card image cap">
+            <div class="custom-column-content">
+              <ul class="list-group">
+                <li class="list-group-item"><i class="fa fa-check"></i> Tutorial courses on empowering Her self.</li>
+                <li class="list-group-item"><i class="fa fa-check"></i> Motivation</li>
+                <li class="list-group-item"><i class="fa fa-check"></i> Books</li>
+                <li class="list-group-item"><i class="fa fa-check"></i> Journalling</li>
+
+              </ul>
+            </div>
+            <div class="card-body">
+              <a href="#" class="card-link">Tutorials</a>
+              <a href="#" class="card-link">More Info</a>
+              </div>
+            <div class="custom-column-footer"></div>
+          </div>
+        </div>
       </div>
     </div>
 
